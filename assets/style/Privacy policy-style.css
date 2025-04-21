@@ -1,0 +1,114 @@
+:root {
+    --color-text-theme: 102, 102, 102;
+    ---white-color: 255, 255, 255;
+    --font-body-family: Assistant, sans-serif;
+    --font-body-size: 17;
+    --spfont: "Creepster", system-ui;
+    --body-bg: #121212;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Assistant", sans-serif;
+    cursor: url(../../img/halloween-jack-o-lantern-animated-custom-cursor.gif), auto;
+    line-height: 27px;
+}
+
+::selection {
+    background-color: rgba(var(--color-text-theme), .2);
+}
+
+/*  sub nav section */
+.sub-nav-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(130, 48, 180, 0.9), rgba(130, 48, 180, 0.9)), url(../../img/breadcrumb.jpg);
+}
+
+.sub-nav-element {
+    list-style: none;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.sub-nav-element:hover {
+    cursor: url(../../img/halloween-jack-o-lantern-animated-custom-cursor_-_Copy.gif), auto;
+
+
+
+}
+
+.sub-nav-keyword {
+    text-decoration: none;
+    color: rgb(var(---white-color));
+    font-weight: normal;
+
+}
+
+
+  .sub-nav-keyword:hover {
+    cursor: url(../../img/halloween-jack-o-lantern-animated-custom-cursor_-_Copy.gif), auto;
+    text-decoration: underline;
+    color: rgb(var(---white-color));
+
+
+}
+/* end of sub nav section */
+
+/* contant section */
+main{
+    background-color: var(--body-bg);
+}
+a , p , span, ul , li:hover{
+    cursor: url(../../img/halloween-jack-o-lantern-animated-custom-cursor_-_Copy.gif), auto;
+
+}
+h1 , h2 ,h3{
+    font-family: var(--spfont);
+color: rgb(var(--color-text-theme));
+    font-size: 16px;
+}
+p , ul ,th , li{
+    font-weight: 600;
+    color: rgb(var(--color-text-theme));
+
+}
+
+p a{
+    font-weight: 600;
+    color: rgb(var(--color-text-theme));
+    text-decoration: none;
+}
+p a:hover{
+    color: #ff6a26;
+}
+button {
+
+    opacity: 1;
+    right: 30px;
+    bottom: 90px;
+    transform: translate3d(1%, 1%, 0px);
+    cursor: url(../../img/halloween-jack-o-lantern-animated-custom-cursor_-_Copy.gif), auto;
+
+}
+
+#GoToTop {
+    position: fixed;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: linear-gradient(54deg, rgba(212, 57, 130, 1) 14%, rgba(130, 48, 180, 1) 85%);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    transition: all .3s ease;
+    cursor: url(../../img/halloween-jack-o-lantern-animated-custom-cursor_-_Copy.gif), auto;
+
+}
